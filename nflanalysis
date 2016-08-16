@@ -1,0 +1,16 @@
+#!/usr/bin/env php
+
+<?php
+
+use Symfony\Component\Console\Application;
+use Symfony\Component\Console\Input\InputInterface;
+use Symfony\Component\Console\Input\InputArgument;
+use Symfony\Component\Console\Outpu\OutputInterface;
+
+require 'vendor/autoload.php';
+
+$app = new Application('NFL Analysis command utility','1.0');
+
+$app->add(new Mox\WeatherCommand());
+
+$app->run();
