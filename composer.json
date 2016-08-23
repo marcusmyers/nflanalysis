@@ -2,7 +2,6 @@
   "name": "nflanalysis",
   "description": "A command line utility for analyzing nfl stats",
   "require": {
-    "aws/aws-sdk-php": "3.18.17",
     "symfony/console": "3.1.0",
     "guzzlehttp/guzzle": "6.2.0"
   },

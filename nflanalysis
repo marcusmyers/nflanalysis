@@ -11,6 +11,6 @@ require 'vendor/autoload.php';
 
 $app = new Application('NFL Analysis command utility','1.0');
 
-$app->add(new Mox\WeatherCommand());
+$app->add(new Mox\Commands\WeatherCommand());
 
 $app->run();
