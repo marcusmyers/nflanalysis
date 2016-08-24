@@ -21,9 +21,10 @@ class WeatherCommand extends Command {
 
   public function execute(InputInterface $input, OutputInterface $output)
   {
+    $api_key = getenv('FFN_API_KEY');
     $client = new Client();
-    $res = $client->request('GET', 'http://www.fantasyfootballnerd.com/service/weather/json/8kkhihv4vmvj/');
+    $res = $client->request('GET', "http://www.fantasyfootballnerd.com/service/weather/json/$api_key");
 
-    echo json_decode($res->getBody());
+    echo $res->getBody();
   }
 }
