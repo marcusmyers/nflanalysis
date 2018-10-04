@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4acce5d32cff033af72b32e46c0f51ea",
+    "content-hash": "33a2fecef94ddbc71e9442419d249142",
     "packages": [
         {
             "name": "guzzlehttp/guzzle",
@@ -239,16 +239,16 @@
         },
         {
             "name": "symfony/console",
-            "version": "v4.1.4",
+            "version": "v4.1.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "ca80b8ced97cf07390078b29773dc384c39eee1f"
+                "reference": "dc7122fe5f6113cfaba3b3de575d31112c9aa60b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/ca80b8ced97cf07390078b29773dc384c39eee1f",
-                "reference": "ca80b8ced97cf07390078b29773dc384c39eee1f",
+                "url": "https://api.github.com/repos/symfony/console/zipball/dc7122fe5f6113cfaba3b3de575d31112c9aa60b",
+                "reference": "dc7122fe5f6113cfaba3b3de575d31112c9aa60b",
                 "shasum": ""
             },
             "require": {
@@ -303,7 +303,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2018-07-26T11:24:31+00:00"
+            "time": "2018-10-03T08:15:46+00:00"
         },
         {
             "name": "symfony/polyfill-mbstring",
