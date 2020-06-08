@@ -4,7 +4,7 @@
   "require": {
     "symfony/console": "5.0.4",
     "guzzlehttp/guzzle": "6.5.2",
-    "vlucas/phpdotenv": "4.1.0"
+    "vlucas/phpdotenv": "4.1.7"
   },
   "autoload": {
     "psr-4": {
