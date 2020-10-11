@@ -3,7 +3,7 @@
   "description": "A command line utility for analyzing nfl stats",
   "require": {
     "symfony/console": "5.1.2",
-    "guzzlehttp/guzzle": "7.0.1",
+    "guzzlehttp/guzzle": "7.2.0",
     "vlucas/phpdotenv": "5.1.0"
   },
   "autoload": {
